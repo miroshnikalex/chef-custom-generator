@@ -2,7 +2,7 @@
 
 1) Add the following configuration to the ~/.chef/config.rb file. Mind the path and $USER variable!
 
-
+```
 cookbook_path [ '~/chef-repo/cookbooks/']
 if File.basename($PROGRAM_NAME).eql?('chef') && ARGV[0].eql?('generate')
   chefdk.generator.license = "all_rights"
@@ -11,4 +11,4 @@ if File.basename($PROGRAM_NAME).eql?('chef') && ARGV[0].eql?('generate')
   chefdk.generator.email = "you@example.com"
   chefdk.generator_cookbook = "~/chef-repo/generator/chef-custom-generator"
 end
-
+```
