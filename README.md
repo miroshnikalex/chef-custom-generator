@@ -1,5 +1,7 @@
 # chef-custom-generator
 
+Please note, my version of the custome Chef generator is far-far away from even BETA. 
+
 1) Add the following configuration to the ~/.chef/config.rb file. Mind the path and $USER variable!
 
 ```
